@@ -1,0 +1,26 @@
+server:
+  port: 3030
+
+mywx:
+  appID: 你自己的
+  appsecret: 你自己的
+  #天气模板id
+  tempateid1: 自己设置
+  #时间模板id
+  tempateid2: 自己设置
+  #事件提醒
+  tempateid3: 自己设置
+  #城市id，这个id自己去网上找对应的城市id。https://yikeapi.com/help/tianqicity
+  cityid: 101041700
+  #认识的日子
+  day1: yyyy-MM-dd
+  #在一起的日子
+  day2: yyyy-MM-dd
+  #我的生日
+  day3: yyyy-MM-dd
+  #宝贝生日
+  day4: yyyy-MM-dd
+  #要推送的用户列表
+  users:
+    - 用户id
+    - 用户id
